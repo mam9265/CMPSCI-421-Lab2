@@ -244,33 +244,7 @@ A API that mimics the functions of an ordering system
     }
     ```
   --- 
-  ### **13 REPLACE AN ORDER**
-  - **Method:** `Put`
-  - **URL:** `/orders/:id`
-  - **Request**
-  ```json
-  {
-    "customerId": "67d4cc6fdb5dd84a30f76791",
-    "items": [
-      "Nintendo Switch 2"
-    ],
-    "totalAmount": 399.99
-  }
-  ```
-  - **Response (200 OK)**
-    ```json
-    {
-      "customerId": "67d4cc6fdb5dd84a30f76791",
-      "items": [
-        "Nintendo Switch 2"
-      ],
-      "totalAmount": 399.99,
-      "status": "pending"
-    }
-    ```
-  --- 
-
-  ### **14. Process Order (Asynchronous Operation)**
+    ### **13. Process Order (Asynchronous Operation)**
   - **Method:** `Get`
   - **URL:** `/orders/process-order`
   - **Response (200 OK, after 3s delay):**
@@ -280,7 +254,7 @@ A API that mimics the functions of an ordering system
       }
       ```
   ---
-  ### **15. PROCESS A PAYMENT**
+  ### **14. PROCESS A PAYMENT**
   - **Method:** `Post`
   - **URL:** `/payments`
   - **Request:**

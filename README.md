@@ -183,7 +183,7 @@ A API that mimics the functions of an ordering system
     }
     ```
 
----
+  ---
   ### **10. GET ALL ORDERS**
   - **Method:** `Get`
   - **URL:** `/orders`
@@ -200,7 +200,7 @@ A API that mimics the functions of an ordering system
       }
     ]  
     ```
----
+  ---
   ### **11. UPDATE AN ORDER**
   - **Method:** `Patch`
   - **URL:** `/orders/:id`

@@ -170,18 +170,29 @@ A API that mimics the functions of an ordering system
   - **URL:** `/orders`
   - **Request:**
     ```json
-    {
-      "name": "Nintendo Switch",
-      "description": "The World's Most Popular Gaming Console"
-    }
+    [
+        {
+          "customerId": "67d5d92df7bc29017f9b0792",
+              "items": [
+                "Nintendo Switch"
+              ],
+          "totalAmount": 299.99
+        }
+    ] 
     ```
   - **Response (201 Created):**
     ```json
-    {
-      "_id": "67d4970b759ca25af84775a6",
-      "name": "Nintendo Switch",
-      "description": "The World's Most Popular Gaming Console"
-    }
+    [
+        {
+            "customerId": "67d5d92df7bc29017f9b0792",
+                "items": [
+                    "Nintendo Switch"
+                ],
+            "totalAmount": 299.99,
+            "status": "pending",
+            "_id": "67d5db2cf7bc29017f9b0797"
+        }
+    ]
     ```
 
   ---

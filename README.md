@@ -35,7 +35,6 @@ A API that mimics the functions of an ordering system
 - **Method:** `Post`
 - **URL:** `/items`
 - **Request:**
-- **Request:**
   ```json
       {
           "name": "Nintendo Switch",

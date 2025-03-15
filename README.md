@@ -1,4 +1,4 @@
-CMPSCI-421-Lab2
+## CMPSCI-421-Lab2
 
 # Order System
 A API that mimics the functions of an ordering system
@@ -17,7 +17,8 @@ A API that mimics the functions of an ordering system
     ```
 2. Install dependencies:
     ```bash
-    npm install
+    npm install express mongoose body-parser
+    npm install express swagger-ui-express swagger-jsdoc
     ```
 3. Start the server:
     ```bash

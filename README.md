@@ -162,7 +162,7 @@ A API that mimics the functions of an ordering system
     }
     ```
 
----
+  ---
   ### **10. GET ALL ORDERS**
   - **Method:** `Get`
   - **URL:** `/orders`

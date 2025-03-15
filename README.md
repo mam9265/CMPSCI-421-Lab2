@@ -31,7 +31,7 @@ A API that mimics the functions of an ordering system
 
 ## **API ENDPOINTS**
 
-    ### **1. CREATE AN ITEM**
+### **1. CREATE AN ITEM**
     - **Method:** `Post`
     - **URL:** `/items`
     - **Request:**
@@ -52,7 +52,7 @@ A API that mimics the functions of an ordering system
         ```
 
 ---
-    ### **2. GET ALL ITEMS**
+### **2. GET ALL ITEMS**
     - **Method:** `Get`
     - **URL:** `/items`
     - **Response (200 OK):** 
@@ -66,7 +66,7 @@ A API that mimics the functions of an ordering system
         ]
         ```
   ---
-    ### **3. UPDATE AN ITEM**
+### **3. UPDATE AN ITEM**
     - **Method:** `Patch`
     - **URL:** `/items/:id`
     - **Request:**

@@ -51,7 +51,7 @@ A API that mimics the functions of an ordering system
     }
     ```
 
-    ---
+---
 ### **2. GET ALL ITEMS**
 - **Method:** `Get`
 - **URL:** `/items`
@@ -64,8 +64,8 @@ A API that mimics the functions of an ordering system
             "description": "The World's Most Popular Gaming Console"
           }
         ]
-      ```
-  ---
+  ```
+---
 ### **3. UPDATE AN ITEM**
 - **Method:** `Patch`
 - **URL:** `/items/:id`

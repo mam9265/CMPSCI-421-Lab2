@@ -41,7 +41,7 @@ A API that mimics the functions of an ordering system
           "name": "Nintendo Switch",
           "description": "The World's Most Popular Gaming Console"
       }
-      ```
+  ```
 - **Response (201 Created):**
     ```json
     {
@@ -56,7 +56,7 @@ A API that mimics the functions of an ordering system
 - **Method:** `Get`
 - **URL:** `/items`
 - **Response (200 OK):** 
-      ```json
+  ```json
       [
           {
             "_id": "67d4970b759ca25af84775a6",

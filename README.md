@@ -81,7 +81,7 @@ A API that mimics the functions of an ordering system
           "_id": "67d4970b759ca25af84775a6",
           "name": "Nintendo Switch OLED",
           "description": "The World's Most Popular Gaming Console"
-        }
+      }
     ```
   ---
   ### **4. DELETE AN ITEM**

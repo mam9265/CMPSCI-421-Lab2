@@ -31,40 +31,40 @@ A API that mimics the functions of an ordering system
 
 ## **API ENDPOINTS**
 
-### **1. CREATE AN ITEM**
-- **Method:** `Post`
-- **URL:** `/items`
-- **Request:**
-- **Request:**
-    ```json
-    {
-      "name": "Nintendo Switch",
-      "description": "The World's Most Popular Gaming Console"
-    }
-    ```
-- **Response (201 Created):**
-    ```json
-    {
-      "_id": "67d4970b759ca25af84775a6",
-      "name": "Nintendo Switch",
-      "description": "The World's Most Popular Gaming Console"
-    }
-    ```
+    ### **1. CREATE AN ITEM**
+    - **Method:** `Post`
+    - **URL:** `/items`
+    - **Request:**
+    - **Request:**
+        ```json
+        {
+          "name": "Nintendo Switch",
+          "description": "The World's Most Popular Gaming Console"
+        }
+        ```
+    - **Response (201 Created):**
+        ```json
+        {
+          "_id": "67d4970b759ca25af84775a6",
+          "name": "Nintendo Switch",
+          "description": "The World's Most Popular Gaming Console"
+        }
+        ```
 
 ---
-  ### **2. GET ALL ITEMS**
-- **Method:** `Get`
-- **URL:** `/items`
-- **Response (200 OK):** 
-  ```json
-    [
-      {
-        "_id": "67d4970b759ca25af84775a6",
-        "name": "Nintendo Switch",
-        "description": "The World's Most Popular Gaming Console"
-      }
-    ]
-    ```
+    ### **2. GET ALL ITEMS**
+    - **Method:** `Get`
+    - **URL:** `/items`
+    - **Response (200 OK):** 
+      ```json
+        [
+          {
+            "_id": "67d4970b759ca25af84775a6",
+            "name": "Nintendo Switch",
+            "description": "The World's Most Popular Gaming Console"
+          }
+        ]
+        ```
   ---
     ### **3. UPDATE AN ITEM**
     - **Method:** `Patch`

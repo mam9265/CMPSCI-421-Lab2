@@ -219,7 +219,7 @@ A API that mimics the functions of an ordering system
   - **Request:**
    ```json
     {
-      "status": "pending"
+      "status": "completed"
     }
     ```
   - **Response: (200 OK)**
@@ -230,7 +230,7 @@ A API that mimics the functions of an ordering system
         "Nintendo Switch"
       ],
       "totalAmount": 299.99,
-      "status": "pending"
+      "status": "completed"
     }
     ```
   ---
@@ -240,7 +240,7 @@ A API that mimics the functions of an ordering system
   - **Response (200 OK):**
     ```json
     {
-      "message": "Customer deleted"
+      "message": "Order deleted"
     }
     ```
   --- 
@@ -254,8 +254,7 @@ A API that mimics the functions of an ordering system
     "items": [
       "Nintendo Switch 2"
     ],
-    "totalAmount": 399.99,
-    "status": "pending"
+    "totalAmount": 399.99
   }
   ```
   - **Response (200 OK)**

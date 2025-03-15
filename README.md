@@ -13,7 +13,7 @@ A API that mimics the functions of an ordering system
 1. Clone this repository:
     ```bash
     git clone https://github.com/mam9265/CMPSCI-421-Lab2
-    cd order-api
+    cd CMPSCI-421-Lab2
     ```
 2. Install dependencies:
     ```bash

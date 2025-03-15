@@ -200,7 +200,7 @@ A API that mimics the functions of an ordering system
       }
     ]  
     ```
-  ---
+---
   ### **11. UPDATE AN ORDER**
   - **Method:** `Patch`
   - **URL:** `/orders/:id`
@@ -232,7 +232,7 @@ A API that mimics the functions of an ordering system
     }
     ```
   --- 
-  *** **13 REPLACE AN ORDER**
+  ### **13 REPLACE AN ORDER**
   - **Method:** `Put`
   - **URL:** `/orders/:id`
   - **Request**
@@ -315,4 +315,4 @@ npm test -- --detectOpenHandles
 ---
 
 ## **Swagger UI**
-- Swagger UI can be found at: [text](http://localhost:3000/api-docs)
+- Swagger UI can be found: [Here](http://localhost:3000/api-docs)

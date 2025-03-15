@@ -1,10 +1,31 @@
+CMPSCI-421-Lab2
+
 # Order System
 A API that mimics the functions of an ordering system
 
 ## **Table of Contents:**
+- [INSTALLATION](#installation)
 - [API ENDPOINTS](#api-endpoints)
-- [Testing](#testing)
-- [Swagger UI](#swagger-ui)
+- [TESTING](#testing)
+- [SWAGGER UI](#swagger-ui)
+
+## **Installation**
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/mam9265/CMPSCI-421-Lab2
+    cd order-api
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the server:
+    ```bash
+    npm start
+    ```
+4. The API will run on `http://localhost:3000`, and Swagger UI will be available at `http://localhost:3000/api-docs`.
+
+---
 
 
 ## **API ENDPOINTS**
@@ -162,7 +183,7 @@ A API that mimics the functions of an ordering system
     }
     ```
 
-  ---
+---
   ### **10. GET ALL ORDERS**
   - **Method:** `Get`
   - **URL:** `/orders`
@@ -294,4 +315,4 @@ npm test -- --detectOpenHandles
 ---
 
 ## **Swagger UI**
-- Swagger UI can be found at: [Here](http://localhost:3000/api-docs)
+- Swagger UI can be found at: [text](http://localhost:3000/api-docs)

@@ -1,4 +1,4 @@
-## CMPSCI-421-Lab2
+# CMPSCI-421-Lab2
 
 # Order System
 A API that mimics the functions of an ordering system

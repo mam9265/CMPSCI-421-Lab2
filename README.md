@@ -63,7 +63,7 @@ A API that mimics the functions of an ordering system
             "name": "Nintendo Switch",
             "description": "The World's Most Popular Gaming Console"
           }
-        ]
+      ]
   ```
 ---
 ### **3. UPDATE AN ITEM**

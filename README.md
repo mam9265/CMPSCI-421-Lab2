@@ -294,4 +294,4 @@ npm test -- --detectOpenHandles
 ---
 
 ## **Swagger UI**
-- Swagger UI can be found at: [text](http://localhost:3000/api-docs)
+- Swagger UI can be found at: [Here](http://localhost:3000/api-docs)
